@@ -1,0 +1,278 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #432121;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white
+    
+
+}
+
+.logo{
+    
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+}
+
+header > .Varejo{
+    display: flex;
+    font-size: 18px;
+    color: black;
+}
+
+nav{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+   gap: 330px;
+    
+}
+
+nav > a{
+    font-size: 20px;
+    color:#83949D;
+}
+
+.BtnExp{
+    color: white;
+    background-color: #992F15;
+    border: 1px solid ;
+    width: 200px;
+    height: 50px;
+    border-radius: 34px;
+}
+
+main{
+    width: 100%;
+    height: 434px;
+    display: flex;
+    align-items: center;
+}
+
+.DNA{
+    width: 100%;
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.Nosso{
+    
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ola{
+    width: 814px;
+    height: 139px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
+.Segmentos{
+width: 100%;
+height: 1005px;
+background-color: aliceblue;
+
+}
+
+.beneficios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.BenefiVarejo{
+    margin-top: 100px;
+    width: 700px;
+    height: 75px;
+    font-size: 60px;
+    color: black;
+}
+
+.BenefiVarejo > span{
+    color: #992F15;
+}
+
+.txt{
+width: 100%;
+height: 330px;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+text-align: center;
+color: #000000;
+}
+
+
+.txt > .txt1{
+    width: 1418px;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+}
+.txt > .txt2{
+    width: 1418px;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+}
+
+.txt > .txt3{
+    width: 1418px;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+}
+
+.ima01{
+    display: flex;
+    justify-content: center;
+}
+
+.ima01 > .para{
+    font-size: 18px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.Planos{
+    width: 100%;
+    height: 710px;
+    background-color: white;
+    }
+    
+    .Planos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .nossosP{
+        font-size: 60px;
+        color: #992F15;
+        
+    }
+    
+    .all-cards{
+        display: flex;
+        gap: 120px;
+        margin-top: 50px;
+    }
+    
+    .card-mkt{
+        width: 270px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background-color: rgb(217, 226, 43);
+        border: 2px solid black;
+        border-radius: 30px;
+        box-shadow: 10px 10px black;
+    }
+    
+    .card-vend{
+        
+        width: 270px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background-color: burlywood;
+        border: 2px solid black;
+        border-radius: 30px;
+        box-shadow: 10px 10px black;
+    }
+    
+    .card-log{
+        width: 270px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background-color: rgb(204, 72, 45);
+        border: 2px solid black;
+        border-radius: 30px;
+        box-shadow: 10px 10px black;
+    }
+    
+    .BtnNossoCur{
+        margin: 80px;
+        color: white;
+        background-color: red;
+        border: 1px solid ;
+        width: 200px;
+        height: 50px;
+        border-radius: 34px;
+    }
+    
+    footer{
+        width: 100%;
+        height: 203px;
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        background-color: aliceblue;
+        
+    }
+    
+    .VA> h1{
+        font-size: 22px;
+        color: #000000;
+    
+    }
+    
+    .nav{
+     font-size: 22;
+     display: flex;
+     flex-direction: column;
+     gap: 33px;
+    }
+    
+    .material{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    }
+    
+    .material > h1{
+        font-size: 22px;
+    }
+    
+    input{
+        width: 560px;
+        height: 48px;
+       box-shadow: 2px 0px black;
+    }
+    
+    
