@@ -201,6 +201,8 @@ color: #ffffff;
         border-radius: 30px;
         
     }
+
+
     
     .card-vend{
         color: #ffffff;
@@ -229,42 +231,7 @@ color: #ffffff;
         border-radius: 30px;
         
     }
-    
-    .Btn{
-        display: flex;
-        justify-content: center;
-        margin-top: 550px;
-    }
-    
-    .Btn > .btn-minimalist{
-        
-        position: absolute;
-        display: inline-block;
-        
-        padding: 1em 2em;
-        border: 0.1em solid #000000;
-        margin: 0 0.3em 0.3em 0;
-        background-color: rgb(0, 0, 0, 0);
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: "Petrona", serif;
-        font-size: 20px;
-        font-weight: 500;
-        color: #000;
-        text-align: center;
-        
-        transition: all 0.2s;
-        
-    }
-    
-    
-    
-    .Btn> .btn-minimalist:hover {
-      color: white;
-      border: 0.1em solid white;
-      background-color: #000;
-    }
-    
+
     footer{
         
         width: 100%;
@@ -273,9 +240,9 @@ color: #ffffff;
         justify-content: center;
         gap: 200px;
         background-color: rgb(0, 0, 0);
-        color: #ffffff;
-        
+        color: #ffffff;    
     }
+
     .VA{
         margin-top: 20px;
     }
@@ -283,7 +250,6 @@ color: #ffffff;
     .VA> h1{
         font-size: 22px;
         color: #ffffff;
-    
     }
     
     .nav{
@@ -291,7 +257,6 @@ color: #ffffff;
      display: flex;
      flex-direction: column;
      gap: 28px;
-  
     }
     
     .nav > a{
@@ -331,100 +296,3 @@ color: #ffffff;
 
 
 
-
-    .button-rgb {    
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); /* centralizado tanto horizontal quanto verticalmente */
-            
-        font-size: 24px;
-        padding: 20px;
-        padding: 0.6em 2em;
-        border: none;
-        outline: none;
-        color: rgb(255, 255, 255);
-        background: #111;
-        cursor: pointer;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        border-radius: 30px;
-        text-align: center;
-        z-index: 1;
-    }
-        
-    .button-rgb:before {
-        content: "";
-        background: linear-gradient(
-        45deg,
-            #ff0000,
-            #ff7300,
-            #fffb00,
-            #48ff00,
-            #00ffd5,
-            #002bff,
-            #7a00ff,
-            #ff00c8,
-            #ff0000
-          );
-      
-          position: absolute;
-          top: -2px;
-          left: -2px;
-          background-size: 400%;
-          z-index: -1;
-          filter: blur(5px);
-          width: calc(100% + 4px);
-          height: calc(100% + 4px);
-          animation: glowingbutton-rgb 20s linear infinite;
-          opacity: 0;
-          transition: opacity 0.3s ease-in-out;
-          border-radius: 30px;
-        }
-        
-        @keyframes glowingbutton-rgb {
-          0% {
-            background-position: 0 0;
-          }
-          50% {
-            background-position: 400% 0;
-          }
-          100% {
-            background-position: 0 0;
-          }
-        }
-        
-        .button-rgb:active {
-          color: #000;
-        }
-        
-        .button-rgb:active:after {
-          background: transparent;
-        }
-        
-        .button-rgb:hover:before {
-          opacity: 1;
-        }
-        
-    .button-rgb:after {
-        z-index: -1;
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: #191919;
-        border-radius: 30px;
-    }
-
-
-
-
-
-
-   
-    
-    
-    
-    
