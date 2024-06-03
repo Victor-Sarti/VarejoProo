@@ -3,34 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sing up-VarejoPro</title> <link rel="stylesheet" href="styles.css">
-    
+    <title>Sign up - VarejoPro</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
         <div class="box">
-            <div class= "logo">
-              <img src="../../img/svg/logo varejo 1.svg" alt="">
-            <h1 class="title"> VarejoPro</h1>
+            <div class="logo">
+                <img src="../../img/svg/logo varejo 1.svg" alt="">
+                <h1 class="title">VarejoPro</h1>
             </div>
 
-                <div class="acesso"> 
-                <h1 class="txt-ace"> Crie sua Conta</h1>
-                <h2 class="faça"> Insire suas informações abaixo.</h2>
+            <div class="acesso">
+                <h1 class="txt-ace">Crie sua Conta</h1>
+                <h2 class="faça">Insira suas informações abaixo.</h2>
                 <form action="#">
-                    <input type="email" placeholder="Digite seu e-mail">
-                    <input type="password" placeholder="Digite uma senha">
-                    <input type="password" placeholder="Confirme sua senha">
-                    <a class="entrar" href="../login/index.html">Salvar</a>
+                    <input type="email" id="email" placeholder="Digite seu e-mail">
+                    <input type="password" id="password" placeholder="Digite uma senha">
+                    <input type="password" id="confirmPassword" placeholder="Confirme sua senha">
+                    <button id="saveButton" onclick="saveUser()" >Salvar</button>
                 </form>
-                </div>
-                    
-               
-              
+            </div>
         </div>
     </main>
 
-
-
+    <script>
+        function saveUser() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+    
+            // Salva os dados no localStorage
+            localStorage.setItem('user', email);
+            localStorage.setItem('pass', password);
+    
+            alert('Usuário e senha salvos com sucesso!');
+    
+            // Redireciona para a página de login
+            window.location.href = '../login/index.html';
+            
+        }
+    </script>
+    
 </body>
 </html>
