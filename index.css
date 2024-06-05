@@ -156,13 +156,12 @@ color: #ffffff;
     background-color: white;
     }
     
-.Planos{
-    position: relative;
-}
 
-.Planos > img{
-    width: 100%;
-    position: absolute;
+
+.Planos{
+    background-image: url("./src/img/svg/fundo-loja.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
     .Planos{
         display: flex;
